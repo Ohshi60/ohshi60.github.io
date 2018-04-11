@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  font-weight:400;
+  line-height: 24px;
+}
