@@ -4,10 +4,32 @@ body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
+section {
+  padding-top: 50px;
+}
 nav {
+  color: #4d5456;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin: 0 24px 0 0;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
+.portfolio-img {
+  position: absolute;
+  overflow: hidden;
+  max-height: 105%;
+  right: 25px;
+  z-index: -1;
+}
+
+.portfolio-icon {
+  font-size: 32px;
+}
 h1 {
   font-size: 38px;
   font-weight: 300;
@@ -31,6 +53,7 @@ ul.social li{
 
 ul.social a{
   color: #FFFFFF;
+  font-size: 28px;
 }
 ul.social a:visited{
   color: #FFFFFF;
@@ -41,7 +64,10 @@ ul.social a:visited{
 }
 
 footer {
-      background-color: #1e6d9a;
+  margin-top: 120px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+    background-color: #1e6d9a;
     color: #FFFFFF;
     margin-top: 120px;
 }
