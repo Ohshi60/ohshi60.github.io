@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body {
+  padding-top: 60px;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
+  color: #4d5456;
 }
 section {
   padding-top: 50px;
@@ -17,14 +19,25 @@ nav {
   margin: 0 24px 0 0;
   text-decoration: none;
   text-transform: uppercase;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
 }
-
-.portfolio-img {
+nav a{
+  color: #4d5456;
+}
+/* About Me */
+.about-img {
   position: absolute;
   overflow: hidden;
-  max-height: 105%;
+  max-height: 150%;
   right: 25px;
   z-index: -1;
+}
+.about-summary {
+  padding: 20px;
+}
+/* Portfolio */
+.portfolio-item {
+  padding: 1em;
 }
 
 .portfolio-icon {
@@ -42,6 +55,7 @@ p {
   line-height: 24px;
 }
 
+/* Social */
 ul.social li{
     padding: 0;
     margin: 0;
@@ -61,6 +75,12 @@ ul.social a:visited{
 
 .fa {
   padding-right: .5em;
+}
+
+
+/* Skills */
+#skills {
+  background-color: #eee;
 }
 
 footer {
