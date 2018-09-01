@@ -93,6 +93,9 @@ ul.social a:visited{
 #services {
   background-color: #eee;
 }
+#skills {
+  margin-bottom: 40px;
+}
 
 footer {
   margin-top: 120px;
@@ -103,7 +106,4 @@ footer {
     margin-top: 120px;
 }
 
-#skillrow2 {
-  background-color: #eee; 
-}
 a[href^="mailto"] { color: white; }
