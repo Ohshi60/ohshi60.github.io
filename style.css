@@ -33,15 +33,14 @@ nav a{
 }
 /* About Me */
 
-.about-header {
-  /*display: inline-flex; */
-}
 .about-summary {
   padding: 20px;
 }
 /* Portfolio */
 .portfolio-item {
-  padding: 1em;
+  padding: 1em; 
+  max-height: 800px;
+  
 }
 
 .large-icon {
@@ -65,7 +64,6 @@ ul.social li{
     margin: 0;
     list-style: none;
     overflow: hidden;
-    margin-bottom: 40px;
     display: inline;
 }
 
